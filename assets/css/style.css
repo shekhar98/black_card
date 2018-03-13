@@ -1,0 +1,123 @@
+#prof{
+
+background-color: #252525;
+margin-top:200px;
+margin-left: 0px;
+height:300px;
+border-radius: 2px;
+border: 2px solid #9d9c9c;
+opacity: 0.8;
+
+animation-name: divtag,rot;
+animation-duration: 1s,0.2s;
+animation-delay: 0s,0.8s;
+animation-timing-function: ease-in;
+
+
+
+}
+
+
+@keyframes divtag{
+    from{border-color: #000000;}
+    to{
+      border-color: #9d9c9c;
+    }
+}
+@keyframes rot{
+  0%{transform: rotate(0deg);}
+  40%{transform: rotate(0deg);}
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+#change1{
+  animation-name: f_jump;
+  animation-duration: 0.5s;
+
+  animation-timing-function: linear;
+}
+#change2{
+  animation-name: t_jump;
+  animation-duration: 0.6s;
+
+  animation-timing-function: linear;
+
+}
+#change3{
+  animation-name: g_jump;
+  animation-duration: 0.7s;
+
+  animation-timing-function: linear;
+
+}
+#change4{
+  animation-name: i_jump;
+  animation-duration: 0.8s;
+
+  animation-timing-function: linear;
+
+}
+
+@keyframes f_jump{
+  0%{transform: translate(0px,-100px);}
+ /* 40%{transform: translate(0px,-20px);}
+  40%{transform: translate(0px,-20px);}
+  75%{transform: translate(0px,40px);}*/
+
+
+}
+ @keyframes t_jump{
+  0%{transform: translate(0px,-100px);}
+ /* 40%{transform: translate(0px,0px);}
+  60%{transform: translate(-30px,0px);}
+  75%{transform: translate(-20px,-20px);}
+  75%{transform: translate(0px,-20px);}  */
+  }
+  @keyframes g_jump{
+    0%{transform: translate(0px,-100px);}
+    /*40%{transform: translate(0px,40px);}
+    60%{transform: translate(20px,40px);}
+    70%{transform: translate(20px,-20px);}
+    80%{transform: translate(0px,-20px);}*/
+  }
+  @keyframes i_jump{
+      0%{transform: translate(0px,-100px);}
+
+      /*40%{transform: translate(0px,60px);}
+    }*/
+  }
+#body{
+    background-image: url('/images/final2.jpg');
+
+} 
+#bio1{
+margin-top:90px; 
+margin-left: 30px;
+
+color:#edf5e1;
+font-weight: bold;
+font-family: "Segoe Print";
+font-size: 27px;
+}
+#bio2{
+color:#edf5e1;
+margin-left: 5px;
+
+font-family: "Segoe Print";
+font-size:20px;
+}
+#bio3{
+color:#edf5e1;
+margin-left: 28px;
+margin-top:90px;
+font-family: "Segoe Print";
+font-size:12px;
+}
+
+#icons{
+
+margin-top: 5px;
+margin-left: 54px;
+}

@@ -1,0 +1,12 @@
+# Base configs
+baseurl: /techie
+
+# UI configs
+title: "Harsh Patel"
+author: "Harsh Patel"
+about: "A Pythonista"
+social_urls:
+  facebook: "#"
+  twitter: "#"
+  instagram: "#"
+mobile: "123"
